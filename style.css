@@ -50,15 +50,13 @@ main {
 
 .chart-header {
   color: var(--Dark-brown);
-  margin-bottom: 1rem;
-  padding: 0 1.5rem;
+  margin-bottom: 7rem;
 }
 
 #weekly-chart {
   margin-bottom: 2rem;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 1rem 0rem;
   width: 100%;
 }
@@ -66,19 +64,44 @@ main {
 .day {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   flex-direction: column;
-  text-align: center;
-  margin: auto;
   color: var(--Medium-brown);
+  position: relative;
+  margin-bottom: 1.5rem;
 }
 
 .bar {
   width: 35px;
-  height: 100px;
   background-color: var(--Soft-red);
-  margin: auto;
   border-radius: 0.3rem;
+  margin: auto 0;
+  position: absolute;
+  bottom: 0;
+  cursor: pointer;
+}
+
+.bar:hover {
+  background-color: hsl(10, 79%, 75%);
+}
+
+.day > p {
+  margin-top: 0.5rem;
+  position: relative;
+  top: 2rem;
+}
+
+.tooltip {
+  position: relative;
+  background-color: black;
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.5rem;
+  visibility: hidden;
+}
+
+.day:hover > .tooltip {
+  visibility: visible;
 }
 
 hr {
