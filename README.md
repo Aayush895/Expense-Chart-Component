@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/Aayush895/Expense-Chart-Component)
-- Live Site URL: [Netlify](https://your-live-site-url.com)
+- Live Site URL: [Netlify](https://expense-tracker-component.netlify.app/)
 
 ## My process
 
@@ -47,8 +47,8 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Aayush895)
-- Twitter - [@yourusername](https://www.twitter.com/JhaAayush895)
+- Frontend Mentor - [@Aayush895](https://www.frontendmentor.io/profile/Aayush895)
+- Twitter - [@JhaAayush895](https://www.twitter.com/JhaAayush895)
 
 ## Acknowledgments
 
