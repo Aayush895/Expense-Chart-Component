@@ -131,3 +131,40 @@ hr {
 .increase-rate > p {
   color: var(--Medium-brown);
 }
+
+.attribution {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+@media (max-width: 428px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  #balance-component {
+    width: 100%;
+  }
+
+  #chart-component {
+    width: 100%;
+    padding: 2rem 0rem;
+  }
+
+  .chart-header {
+    padding: 0 0.5rem;
+  }
+
+  #expense {
+    padding: 0 1rem;
+  }
+
+  .bar {
+    width: 25px;
+    left: 0.3rem;
+  }
+
+  .day > p {
+    right: 0.7rem;
+  }
+}
